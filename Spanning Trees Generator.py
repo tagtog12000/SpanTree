@@ -2,7 +2,7 @@ from itertools import product
 import networkx as nx
 import numpy as np
 import matplotlib.pyplot as plt
-import time
+
 #Optional: Calculate the total number of spanning trees for a given graph (g) using the Matrix Tree Theorem (Kirchhoff's theorem),
 def numSpanTrees(g)-> int:
     if not nx.is_connected(g):
